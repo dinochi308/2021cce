@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main()
+{
+    int d[3]={100,200,300};
+    ///printf("d[0]:%d\n",i[0]);
+    ///printf("d[1]:%d\n",i[1]);
+    ///printf("d[2]:%d\n",i[2]);
+    for (int i=0;i<3;i++){
+        printf("d[%d]:%d\n",i,i[d]);
+    }
+}
